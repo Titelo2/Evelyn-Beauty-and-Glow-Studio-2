@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment| EvelynBeauty and Glow Studio</title>
+    <metan name=" Book beauty appointment, salon bookings"></metan>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>Evelyn Beauty and Glow Studio</h1>
+    <p>Book an Appointment</p>
+    </header>
+    <nav class="navbar">
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="service.html">Service</a>
+<a href="booking.html">Booking</a>
+<a href="contact.html">Contact</a>
+<a href="review.html">Reviews</a>
+    </nav>
+    <main>
+<h2>Book an Appointment</h2>
+<p>Choose your preferred service and appointment time. <br>
+We look forward to making you feel beautiful and confident.</p>
+<form id="bookingForm">
+<label for="name">Full Name:</label><br>
+<input type="text" id="name" name="name" required><br><br>
+<label for="phone">Phone number</label><br>
+<input type="tel" name="phone" id="phone" required><br><br>
+<label for="email">Email Address:</label><br>
+<input type="email" name="email" id="email"><br><br>
+<label for="service">Choose a service:</label><br>
+<select id="service"name="service" required>
+<option value="">Choose a service</option>
+<option value="hair">Hair styling</option>
+<option value="nails">Nails</option>
+<option value="makeup">Makeup</option>
+<option value="lashes">Lashes</option>
+</select>
+<br><br>
+<label for="date">Appointment Date:</label><br>
+<input type="date" name="date" id="date" required><br><br>
+<label for="message">Additional information:</label>
+<textarea name="message" id="message"></textarea><br><br>
+<button type="submit">Book an Appointment</button>
+</form>
+    </main>
+    <footer>
+        <p> &copy;2026 Evelyn Beauty and Glow Studio</p>
+    </footer>
+    <script src="js/booking.js"></script>
+</body>
+</html>

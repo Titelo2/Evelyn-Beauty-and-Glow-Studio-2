@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews | Evelyn Beauty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+<h1>Customer Reviews</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="service.html">Service</a>
+<a href="booking.html">Booking</a>
+<a href="contact.html">Contact</a>
+</nav>
+  </header>
+  <main>
+<section class="review-section">
+<h2>Share your experience</h2>
+<p> We would love to hear about your beauty experience!</p>
+<form id="reviewForm">
+<input
+ type="text"
+  id="reviewName"
+  placeholder="Your Name"
+  required>
+  <select id="reviewService" required>
+    <option value="">Select a service</option>
+    <option value="Nails">Nails</option>
+    <option value="Makeup">Makeup</option>
+    <option value="Hairstyle">Hairstyle</option>
+    <option value="Lashes">Lashes</option>
+    </select>
+    <select id="reviewRating" required>
+<option value="">Choose your Rating</option>
+<option value="*****">Excellent</option>
+<option value="****">Very Good</option>
+<option value="***">Good</option>
+<option value="**">Fair</option>
+<option value="*">Poor</option>
+    </select>
+<textarea
+id="reviewText"
+placeholder="Write your review here..."
+required></textarea>
+<button type="submit">Submit Review</button>
+<p id="reviewMessage"></p>
+</form>
+</section>
+<section class="Customer-review">
+    <h2>What our customers say</h2>
+    <div class="review-card">
+        <h3>Mbali</h3>
+        <p>Service: Nails</p>
+        <p class="stars">*****</p>
+        <p>I absolutely loved my nails! The service was amazing!</p>
+    </div>
+    <div class="review-card">
+        <h3>Titelo</h3>
+        <p> Service: Makeup</p>
+        <p class="stars">****</p>
+        <p>My makeup was beautiful. I felt confident and special</p>
+    </div>
+    </section>
+  </main> 
+  <footer>
+    <p>&copy; 2026 Evelyn Beauty and Glow Studio</p>
+  </footer> 
+  <script src="js/review.js"></script>
+</body>
+</html>
